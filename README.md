@@ -22,25 +22,6 @@ Reference:  x(n) = sin(2πf₀n)  →  [ Adaptive Filter ]  →  y(n)
 
 ---
 
-## Repository Structure
-
-```
-📦 ECG-Adaptive-Filtering
-├── 📓 DSP_Adaptive_Filter_LMS_NLMS_RLS.ipynb   ← Main Colab notebook
-├── 📄 DSP_Report_Ahmad_ElSamak.pdf              ← Technical report
-├── 📄 README.md                                 ← This file
-└── 📁 figures/                                  ← Generated figures (9 PNG files)
-    ├── anc_block_diagram.png                    ← ANC system architecture
-    ├── fig1_clean_ecg.png
-    ├── fig2a/b/c — noise injection
-    ├── fig3_cleaned_comparison.png
-    ├── fig4–fig7 — per-algorithm figures
-    ├── fig8_snr_comparison.png
-    └── fig9_radar_chart.png
-```
-
----
-
 ## How to Run
 
 ### Option 1 — Google Colab (Recommended)
