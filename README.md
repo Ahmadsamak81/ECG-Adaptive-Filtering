@@ -10,16 +10,6 @@
 This project implements and compares three adaptive filtering algorithms — **LMS**, **NLMS**, and **RLS** — for 50 Hz power-line noise cancellation on real clinical ECG recordings from the **MIT-BIH Arrhythmia Database**. Each algorithm is deployed within a two-input Adaptive Noise Cancellation (ANC) architecture:
 
 ![ANC Block Diagram](figures/anc_block_diagram.png)
-
-```
-Primary:    d(n) = s(n) + v(n)  →  [ Σ ]  →  e(n) ≈ s(n)  [Clean ECG]
-                                       ↑
-Reference:  x(n) = sin(2πf₀n)  →  [ Adaptive Filter ]  →  y(n)
-                                    LMS / NLMS / RLS
-                                         ↑
-                                   [ Weight Update ]  ←  e(n)
-```
-
 ---
 
 ## How to Run
